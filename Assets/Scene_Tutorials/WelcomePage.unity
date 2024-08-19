@@ -876,7 +876,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Welcome to Our Multisenosry Study
+  m_text: Welcome to Our Multisensory Study
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 033f1bfc063555b469df52c4a4ae2b80, type: 2}
   m_sharedMaterial: {fileID: 1291213057348107540, guid: 033f1bfc063555b469df52c4a4ae2b80,
@@ -1549,7 +1549,7 @@ PrefabInstance:
     - target: {fileID: 8597048307288503806, guid: f9388a690e3af3a4eb91e6679ea0affd,
         type: 3}
       propertyPath: m_Text
-      value: Scanario VA
+      value: Scenario VA
       objectReference: {fileID: 0}
     - target: {fileID: 8597048307288503806, guid: f9388a690e3af3a4eb91e6679ea0affd,
         type: 3}
@@ -1580,7 +1580,7 @@ PrefabInstance:
     - target: {fileID: 8597048307592344188, guid: f9388a690e3af3a4eb91e6679ea0affd,
         type: 3}
       propertyPath: m_Text
-      value: Scanario VAA
+      value: Scenario VAA
       objectReference: {fileID: 0}
     - target: {fileID: 8597048307592344188, guid: f9388a690e3af3a4eb91e6679ea0affd,
         type: 3}

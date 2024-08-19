@@ -20,4 +20,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scene_Tutorials/Office_Test.unity
     guid: 27956fbca6d7b364ea6a5240eef73274
-  m_configObjects: {}
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 09dee3caa7f1f774286ae13b3e442743,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 30e0b106c63432d4eb59992ab092b761,
+      type: 2}

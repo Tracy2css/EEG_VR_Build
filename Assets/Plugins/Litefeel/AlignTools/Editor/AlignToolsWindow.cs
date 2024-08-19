@@ -85,13 +85,15 @@ namespace litefeel.AlignTools
         {
             Utils.editorPath = System.IO.Path.GetDirectoryName(AssetDatabase.GetAssetPath(MonoScript.FromScriptableObject(this)));
 
-            SceneView.onSceneGUIDelegate += OnSceneGUI;
+            // Use the new event handler for scene GUI updates
+            SceneView.duringSceneGui += OnSceneGUI;
             EditorApplication.hierarchyWindowItemOnGUI += OnHierarchyWindowItemOnGUI;
         }
 
         private void OnDisable()
         {
-            SceneView.onSceneGUIDelegate -= OnSceneGUI;
+            // Unsubscribe from the new event handler
+            SceneView.duringSceneGui -= OnSceneGUI;
             EditorApplication.hierarchyWindowItemOnGUI -= OnHierarchyWindowItemOnGUI;
         }
 
@@ -109,5 +111,3 @@ namespace litefeel.AlignTools
 
     }
 }
-
-
